@@ -130,7 +130,8 @@ class Prompt(ft.TextField):
 
     
 # Class definition for a custom sign-in button in the GUI.
-
+        
+    
 class SignInButton(ft.UserControl):
     def __init__(self, btn_name): 
         self.btn_name = btn_name
@@ -350,7 +351,7 @@ def tab1_content():
                         alignment=MainAxisAlignment.CENTER,
                         spacing=5,
                         controls=[
-                            Text("Sign In Below", size=22, weight='bold'),
+                            Text("selamat ujian", size=22, weight='bold'),
                             Text("          Agora-AI", size=13, weight='bold'),
                         ],
                     ),
